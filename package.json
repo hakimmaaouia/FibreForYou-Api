@@ -27,7 +27,7 @@
       "commit-msg": "echo \"\n\nThis commit was made from the fibre4-you-api package.\" | commitlint -E HUSKY_GIT_PARAMS",
       "pre-applypatch": "echo \"Pre-applypatch not implemented\"",
       "post-applypatch": "echo \"Post-applypatch not implemented\"",
-      "pre-commit": "lint"
+      "pre-commit": "echo \"Post-applypatch not implemented\""
     }
   },
   "dependencies": {
