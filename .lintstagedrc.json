@@ -1,4 +1,4 @@
 {
   "{src,apps,libs,test}/**/*.ts": ["yarn lint"],
-  "./**/*.{ts,js,json,*rc}": ["yarn format"]
+  "./**/*.{ts,js,json,*rc}": ["yarn format", "yarn prettierCheck"]
 }
