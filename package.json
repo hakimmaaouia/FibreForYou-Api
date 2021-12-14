@@ -23,7 +23,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint && yarn prettierCheck"
+      "pre-commit": "yarn lint && yarn prettierCheck "
     }
   },
   "dependencies": {
