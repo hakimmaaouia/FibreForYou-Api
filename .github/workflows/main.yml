@@ -1,0 +1,40 @@
+
+name: push
+
+
+on:
+
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+
+    steps:
+
+      - name : Checkout 🛎️
+      - uses: actions/checkout@v2
+
+
+      - name: Install 🔧
+        run: yarn install 
+        
+      - name: Lint 🧐
+        run: yarn lint:check 
+      
+      - name: Build 🏗️
+        run: yarn build      
+        env:
+          NODE_ENV: production
+        
+        
+
+
