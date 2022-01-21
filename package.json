@@ -28,6 +28,8 @@
     "@nestjs/common": "^7.6.15",
     "@nestjs/core": "^7.6.15",
     "@nestjs/platform-express": "^7.6.15",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.13.2",
     "husk": "^0.5.3",
     "husky": "^7.0.4",
     "lint-staged": "^12.1.2",
