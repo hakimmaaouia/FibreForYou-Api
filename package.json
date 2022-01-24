@@ -28,14 +28,17 @@
     "@nestjs/common": "^7.6.15",
     "@nestjs/core": "^7.6.15",
     "@nestjs/platform-express": "^7.6.15",
+    "@nestjs/typeorm": "^8.0.3",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.13.2",
     "husk": "^0.5.3",
     "husky": "^7.0.4",
     "lint-staged": "^12.1.2",
+    "pg": "^8.7.1",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
-    "rxjs": "^6.6.6"
+    "rxjs": "^7",
+    "typeorm": "^0.2.41"
   },
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",

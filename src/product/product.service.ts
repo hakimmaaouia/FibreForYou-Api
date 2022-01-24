@@ -1,12 +1,14 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { CreateProductDto } from './dto/createProduct.dto';
 import { GetProductsWithFilterDto } from './dto/getProductWithFilter.dto';
 import { Product } from './task.model';
 @Injectable()
 export class ProductService {
   getProducts(): string {
+    throw new NotFoundException('test exception');
     return 'This action returns all products';
   }
+
   getProductsWithFilter(
     GetProductsWithFilter: GetProductsWithFilterDto,
   ): string {
